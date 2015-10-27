@@ -1,4 +1,4 @@
-div {
+div#home {
   display: block;
   position: absolute;
   top: 50%;
@@ -110,13 +110,10 @@ h1 {
 
 .about-text {
   display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
   max-width: 452px;
-  max-height: 452px;
-  margin-top: -226px;
-  margin-left: -226px;
+  margin: 0 auto;
+  margin-top: 150px;
+
 }
 
 .about-text p {
@@ -147,6 +144,61 @@ h1 {
 .about-text a:visited {
   color: LightSlateGray;
 }
+
+.resume {
+  margin: 0 auto;
+  max-width: 500px;
+  margin-top: 100px;
+}
+
+.resume h1,
+.resume .summary h2,
+.resume p {
+  font-family: 'Nunito', sans-serif;
+  line-height: 2;
+}
+
+.resume h1 {
+  font-size: 28px;
+  color: #FFAF67;
+}
+
+.resume h2 {
+  font-family: 'Nunito', sans-serif;
+}
+
+.resume h3 {
+  border-bottom: 1px solid Aqua;
+  padding-bottom: 5px;
+  color: #666;
+  font-weight: normal;
+}
+
+.resume h4 {
+  margin-bottom: 0;
+  color: #666;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.resume p.dates {
+  color: #999;
+  margin-top: 0;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.resume p {
+  font-size: 14px;
+  line-height: 28px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  color: LightSlateGray;
+  word-spacing: 1px;
+  margin-top: 0;
+}
+
+
 
 @media screen and (max-width: 430px) {
   div {
