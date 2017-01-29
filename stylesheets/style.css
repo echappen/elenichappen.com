@@ -1,0 +1,248 @@
+div#home {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 424px;
+  max-height: 420px;
+  margin-top: -210px;
+  margin-left: -210px;
+  color: gray;
+  font-family: 'Nunito', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  word-wrap: break-word;
+  text-decoration: none;
+  line-height: 45px;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f0f0f0;
+}
+
+h1 {
+  display: inline;
+  font-size: 50px;
+  margin: 0px;
+}
+
+.eleni {
+  color: red;
+}
+
+.chappen {
+  color: turquoise;
+}
+
+.web {
+  color: lime;
+}
+
+.developer {
+  margin-left: 12px;
+  color: purple;
+}
+
+.and {
+  margin-right: 2px;
+  margin-left: 2px;
+  color: LightGray;
+}
+
+.designer {
+  margin-right: 3px;
+  color: orange;
+}
+
+.more {
+  color: green;
+}
+
+.about {
+  margin-right: 16px;
+  margin-left: 17px;
+  color: Aquamarine;
+}
+
+.me {
+  color: gray;
+}
+
+.myblog {
+  margin-right: 41px;
+  color: Gold;
+}
+
+.follow {
+  color: magenta;
+}
+
+.on {
+  margin-left: 7px;
+  color: MediumPurple;
+  margin-right: 7px;
+}
+
+.twitter {
+  color: blue;
+}
+
+.instagram {
+  margin-right: 24px;
+  color: FireBrick;
+}
+
+.github {
+  color: pink;
+}
+
+.linkedin {
+  margin-left: 9px;
+  color: RoyalBlue;
+}
+
+.about-text {
+  display: block;
+  max-width: 452px;
+  margin: 0 auto;
+  margin-top: 150px;
+
+}
+
+.about-text p {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  color: LightSlateGray;
+  word-spacing: 1px;
+}
+
+.back {
+  font-size:14px;
+  text-align: right;
+}
+
+.about-text a {
+  padding-bottom: 2px;
+  text-decoration: none;
+  box-shadow: 0 1px Aqua;
+  outline: 0;
+}
+
+.about-text a:hover {
+  color: Aqua;
+}
+
+.about-text a:visited {
+  color: LightSlateGray;
+}
+
+.resume {
+  margin: 0 auto;
+  max-width: 500px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.resume h1,
+.resume .summary h2,
+.resume p {
+  font-family: 'Nunito', sans-serif;
+  line-height: 2;
+}
+
+.resume h1 {
+  font-size: 28px;
+  color: #FFAF67;
+}
+
+.resume h2 {
+  font-family: 'Nunito', sans-serif;
+}
+
+.resume h3 {
+  border-bottom: 1px solid Aqua;
+  padding-bottom: 5px;
+  color: #666;
+  font-weight: normal;
+}
+
+.resume h4 {
+  margin-bottom: 0;
+  color: #666;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.resume p.dates {
+  color: #999;
+  margin-top: 0;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.resume p {
+  font-size: 14px;
+  line-height: 28px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  color: LightSlateGray;
+  word-spacing: 1px;
+  margin-top: 0;
+}
+
+
+
+@media screen and (max-width: 430px) {
+  div {
+    position: relative;
+    max-width: auto;
+    max-height: auto;
+    margin-top: 0px;
+    margin-left: 0px;
+    left: 0%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 37px;
+  }
+
+  .eleni, .chappen, .web, .developer, .designer, .about, .myblog, .twitter, .instagram, .github, .linkedin {
+    display: block;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 30px;
+  }
+
+  .and {
+    display: inline;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 30px;
+  }
+
+  .more, .me, .follow, .on {
+    display: none;
+  }
+
+  .about-text {
+    position: relative;
+    max-width: auto;
+    max-height: auto;
+    margin-top: 0px;
+    margin-left: 0px;
+    left: 0%;
+  }
+
+}
+
+
+
+
